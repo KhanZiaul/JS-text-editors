@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>text-editor</title>
+    <title>text editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/70a98cd510.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Zeyada&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header></header>
+    <main>
+        <div class="bg-sky-900 rounded-xl p-2 md:w-3/4 md:mx-auto mt-3">
+
+            <h2 class="text-center text-5xl text-white">KHAN ZIA'S TEXT EDITOR</h2>
+
+        <div class="rounded-lg border-stone-900 mt-2 ">
+
+            <div class="border-2 border-blue-500 mx-auto bg-white text-black rounded-lg p-7 bg-neutral-500">
+
+                <div class="flex justify-between p-5">
+
+                    <!-- Text Size , Style , Decoration-->
+
+            <div class="flex md:gap-5">
+
+                <button id="bold" class="text-black font-medium decoration-black-900 btn-hover"><i class="fa-solid fa-bold"></i></button>
+
+                   <button id="italic" class="text-black font-medium decoration-black-900 btn-hover"><i class="fa-solid fa-italic"></i></button>
+
+                       <button id="underline" class="text-black font-medium underline decoration-black-900 btn-hover"><i class="fa-solid fa-underline"></i></button>
+
+            </div>
+
+            
+
+                </div>
+
+                <div>
+                    <hr class="border-1 border-black">
+                </div>
+
+                <div id="bg mx-auto">
+
+                    <textarea name="" id="text-area" class="block border-2 border-black mt-2 rounded-lg w-full md:p-5" placeholder="Enter your text here"></textarea>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
